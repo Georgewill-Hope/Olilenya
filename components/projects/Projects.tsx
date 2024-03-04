@@ -18,10 +18,10 @@ const Projects = () => {
           view="https://github.com/Georgewill-Hope/constructa.git"
         />
         <Card
-          img=""
-          type="Coming Soon!"
-          demo="constructa.vercel.app"
-          view="https://github.com/Georgewill-Hope/constructa.git"
+          img="/images/hbcw.jpg"
+          type="Holiness Bible Church World-wide"
+          demo="www.hbcww.org"
+          view="https://hbcww.vercel.app"
         />
         <Card
           img=""

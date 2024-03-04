@@ -22,7 +22,7 @@ const Card = ({ type,demo, view, img}: props) => {
         className="rounded-md object-cover object-center"
       />
       <div className=" w-full h-full flex flex-col justify-between items-center px-2 py-5 absolute">
-        <h2 className="font-semibold">{type}</h2>
+        <h2 className="font-semibold [text-shadow:_0_1px_0_white]">{type}</h2>
         <div className="flex justify-between w-full">
           <Btn
             classes=""
