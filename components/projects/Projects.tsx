@@ -20,7 +20,7 @@ const Projects = () => {
         <Card
           img="/images/hbcw.jpg"
           type="Holiness Bible Church World-wide"
-          demo="www.hbcww.org"
+          demo="https://www.hbcww.org"
           view="https://hbcww.vercel.app"
         />
         <Card
