@@ -14,21 +14,18 @@ const Projects = () => {
         <Card
           img="/images/constructa.jpg"
           type="Constructa"
-          demo="https://constructa.vercel.app"
+          live={false}
+          demo="https://constructa-georgewill-hope.vercel.app/"
           view="https://github.com/Georgewill-Hope/constructa.git"
         />
         <Card
           img="/images/hbcw.jpg"
           type="Holiness Bible Church World-wide"
+          live={true}
           demo="https://www.hbcww.org"
-          view="https://hbcww.vercel.app"
+          view="https://hbcww-georgewill-hope.vercel.app/"
         />
-        <Card
-          img=""
-          type="Coming Soon!"
-          demo="constructa.vercel.app"
-          view="https://github.com/Georgewill-Hope/constructa.git"
-        />
+        <Card img="" type="Coming Soon!" live={false} demo="" view="" />
       </div>
     </section>
   );

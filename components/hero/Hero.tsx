@@ -39,7 +39,11 @@ const Hero = () => {
             </Link>
           </div>
           <div className="flex items-center justify-center gap-3 mt-3">
-            <Link href="">
+            <Link
+              href="https://www.facebook.com/hope.georgewill.7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <MdFacebook
                 size={35}
                 className="hover:text-gray-600 cursor-pointer duration-500 text-sky-600"
@@ -55,7 +59,11 @@ const Hero = () => {
                 className="hover:text-gray-600 cursor-pointer duration-500"
               />
             </Link>
-            <Link href="">
+            <Link
+              href="https://www.linkedin.com/in/hope-georgewill-3096b2289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_meduim=andriod_app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <ImLinkedin
                 size={30}
                 className="hover:text-gray-600 cursor-pointer duration-500 text-sky-600"
