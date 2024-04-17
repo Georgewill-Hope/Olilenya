@@ -11,12 +11,10 @@ const Back = () => {
         <div className="flex flex-col gap-3 lg:gap-5">
           <Card title="Mongo DB" content="Experinced" />
           <Card title="Next js" content="Intermediate" />
-          <Card title="Magic" content="Experinced" />
         </div>
         <div className="flex flex-col gap-3 lg:gap-5">
           <Card title="Node js" content="Intermediate" />
           <Card title="Sanity" content="Experinced" />
-          <Card title="Ghost" content="Intermediate" />
         </div>
       </div>
     </div>

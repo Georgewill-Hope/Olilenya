@@ -20,7 +20,7 @@ const Projects = () => {
         />
         <Card
           img="/images/hbcw.jpg"
-          type="Holiness Bible Church World-wide"
+          type=""
           live={true}
           demo="https://www.hbcww.org"
           view="https://hbcww-georgewill-hope.vercel.app/"

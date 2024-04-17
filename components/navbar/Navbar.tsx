@@ -34,28 +34,28 @@ const Navbar = () => {
           >
             <ul className="h-[85vh] lg:h-auto items-center justify-evenly flex flex-col lg:flex-row lg:gap-10">
               <li
-                className={`text-center font-medium hover:text-amber-800 duration-500 cursor-pointer`}
+                className={`text-center font-semibold hover:text-amber-800 duration-500 cursor-pointer`}
               >
                 <Link href="#about" onClick={() => setNavbar(!navbar)}>
                   About
                 </Link>
               </li>
               <li
-                className={`text-center font-medium hover:text-amber-800 cursor-pointer duration-500`}
+                className={`text-center font-semibold hover:text-amber-800 cursor-pointer duration-500`}
               >
                 <Link href="#experience" onClick={() => setNavbar(!navbar)}>
                   Experience
                 </Link>
               </li>
               <li
-                className={`lg:py-0 text-center font-medium hover:text-amber-800 duration-500 cursor-pointer`}
+                className={`lg:py-0 text-center font-semibold hover:text-amber-800 duration-500 cursor-pointer`}
               >
                 <Link href="#projects" onClick={() => setNavbar(!navbar)}>
                   Projects
                 </Link>
               </li>
               <li
-                className={`lg:py-0 text-center font-medium hover:text-amber-800 duration-500 cursor-pointer`}
+                className={`lg:py-0 text-center font-semibold hover:text-amber-800 duration-500 cursor-pointer`}
               >
                 <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                   Connect
