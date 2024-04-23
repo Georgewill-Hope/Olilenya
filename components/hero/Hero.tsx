@@ -29,9 +29,11 @@ const Hero = () => {
           </h1>
           <h2 className="font-semibold">Full Stack Developer</h2>
           <div className="flex gap-5 items-center justify-center mt-3">
-            <button className="font-semibold border-2 border-black bg-sky-600 rounded-md px-4 py-2 hover:bg-black hover:text-white duration-700">
-              Download CV
-            </button>
+            <a href="/doc/Hope-Georgewill-Resume.pdf" download>
+              <button className="font-semibold border-2 border-black bg-sky-600 rounded-md px-4 py-2 hover:bg-black hover:text-white duration-700">
+                Download CV
+              </button>
+            </a>
             <Link href="#contact">
               <button className="font-semibold border-2 border-black rounded-md px-4 py-2 bg-black text-white hover:bg-transparent hover:text-black  duration-700">
                 Hire Me!
