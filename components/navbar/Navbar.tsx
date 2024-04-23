@@ -10,7 +10,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <nav className="w-full fixed top-0 left-0 right-0 z-10 lg:px-10">
-      <div className="mt-5 mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 w-full max-w-6xl lg:bg-sky-600 lg:shadow-sm shadow-black px-3">
+      <div className="mt-5 mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 w-full max-w-6xl lg:bg-sky-600 lg:shadow-sm shadow-black px-3 rounded-lg">
         <div className="flex items-center justify-between lg:mx-0 px-3 py-3 md:py-5 lg:block h-[9vh] lg:h-auto  rounded-md bg-sky-600 shadow-sm shadow-black lg:bg-transparent lg:shadow-none">
           <Link href="#home">
             <h2 className="text-xl md:text-2xl font-extrabold">BLUE</h2>
